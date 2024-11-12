@@ -1,0 +1,21 @@
+/**
+ * Theme Name: Loguei
+ * Description: Site desenvolvido exclusvamente para os clientes www.loguei.com
+ * Author: Equipe Loguei
+ * Version: 1.3.3
+ * Template: blocksy
+ * Text Domain: blocksy
+ */
+
+.bapf_sfilter {
+  margin-bottom: var(--sidebar-widgets-spacing, 40px);
+}
+.wc-block-grid__product-rating .star-rating, .wc-block-grid__product-rating .wc-block-grid__product-rating__stars {
+  width: 7em;
+}
+.wc-block-grid[data-products] {
+  grid-template-columns: 1fr;
+}
+.ct-button.ct-cookies-decline-button {
+  display: none !important;
+}
